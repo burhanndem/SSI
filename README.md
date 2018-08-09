@@ -12,6 +12,7 @@ What do you need to use SSI ?
 
 How to use SSI?
 ===================
+Start it by typing:
 
     python3.6 dnsbil_console.py
     
