@@ -1,4 +1,4 @@
-from dnsibl import Mhs
+from dnsbil import Mhs
 
 class Console:
 

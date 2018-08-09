@@ -18,7 +18,7 @@ class Mhs():
         col5text = []
 
 
-        resp = requests.get(f"{self.path}{site}.com")
+        resp = requests.get(f"{self.path}{site}")
         if resp.status_code == HTTPStatus.OK:
             soup = BeautifulSoup(resp.text, 'html.parser')
             headers = soup.find_all("h3")
@@ -82,6 +82,3 @@ class Mhs():
         x.add_column(basliklar[4], c5)
         x.add_column(basliklar[5], c6)
         print(x.get_string(title=f"{site} Sitesinin Bilgileri"))
-
-
-
