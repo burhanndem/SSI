@@ -1,9 +1,8 @@
 import requests
-from pprint import pprint
 from http import HTTPStatus
 from bs4 import BeautifulSoup
 from prettytable import PrettyTable
-import itertools
+
 
 
 class Mhs():
