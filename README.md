@@ -18,7 +18,6 @@ Start it by typing:
     
 Screenshots
 ====================
-
-https://user-images.githubusercontent.com/41504195/43914442-9e3944f2-9c10-11e8-8fb7-958dfcec3768.png
+![screenshot from 2018-08-09 19-20-32](https://user-images.githubusercontent.com/41504195/43914442-9e3944f2-9c10-11e8-8fb7-958dfcec3768.png)
 
 
