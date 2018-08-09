@@ -19,7 +19,7 @@ Start it by typing:
 Screenshots
 ====================
 
-<a href="http://tinypic.com?ref=29prl3q" target="_blank"><img src="http://i65.tinypic.com/29prl3q.png" border="0" alt="Image and video hosting by TinyPic"></a>
+https://github.com/burhanndem/SSI/issues/1#issue-349215698
 
 
 
