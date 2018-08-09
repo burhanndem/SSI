@@ -8,29 +8,29 @@ import itertools
 
 class Mhs():
     def __init__(self):
-        self.path = "http://dnsbil.com/"  # default bir path olusturuyorum ki her seferinde girmeyeyim
+        self.path = "http://dnsbil.com/"
 
     def hubele(self, site):
-        basliklar = []  # basliklarin datasini tutacağım list
-        col1text = []  # ilk kolonun datasini tutacağım list
+        basliklar = []
+        col1text = []
         col2text = []
         col3text = []
         col4text = []
         col5text = []
-        col6text = []
 
-        resp = requests.get(f"{self.path}{site}.com")  # default pathin yanına girilen argümanı alıp yönlendiriyorum
+
+        resp = requests.get(f"{self.path}{site}.com")
         if resp.status_code == HTTPStatus.OK:
             soup = BeautifulSoup(resp.text, 'html.parser')
-            headers = soup.find_all("h3")  # basliklarin oldugu dizin
+            headers = soup.find_all("h3")
             if headers != []:
                 for i in range(0, len(headers), 1):
                     basliklar.append(headers[i].text)
-            col1 = soup.find_all("ul", {"class": "listNS"})  # nameserver dns bilgilerinin datasını bulduğumuz dizin
+            col1 = soup.find_all("ul", {"class": "listNS"})
             if col1 != []:
                 for i in range(0, len(col1), 1):
                     col1text.append(col1[i].text)
-            col2 = soup.find_all("ul", {"class": "listMX"})  # MX Kayıtlarının datasını bulduğumuz dizin
+            col2 = soup.find_all("ul", {"class": "listMX"})
             if col2 != []:
                 for i in range(0, len(col2), 1):
                     col2text.append(col2[i].text)
