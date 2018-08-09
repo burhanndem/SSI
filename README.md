@@ -19,7 +19,6 @@ Start it by typing:
 Screenshots
 ====================
 
-https://github.com/burhanndem/SSI/issues/1#issue-349215698
-
+https://user-images.githubusercontent.com/41504195/43914442-9e3944f2-9c10-11e8-8fb7-958dfcec3768.png
 
 
