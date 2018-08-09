@@ -3,7 +3,8 @@ from dnsibl import Mhs
 class Console:
 
     def run(self):
-        site=input("\nBilgilerini öğrenmek istediğiniz site: ")
+        print("\nWelcome to SSI v.0.0.1!!\n")
+        site=input("\nWhich site do you want to get information about ? : ")
         print("\n\n")
         ornk=Mhs()
         ornk.hubele(site)
