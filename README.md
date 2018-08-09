@@ -14,7 +14,7 @@ How to use SSI?
 ===================
 Start it by typing:
 
-    python3 dnsbil_console.py
+    python3.6 dnsbil_console.py
     
 Screenshots
 ====================
